@@ -1,7 +1,7 @@
 package org.melchor.admin.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.melchor.admin.AdminService;
+import org.melchor.admin.service.AdminService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

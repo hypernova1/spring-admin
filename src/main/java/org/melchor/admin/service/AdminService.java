@@ -1,4 +1,4 @@
-package org.melchor.admin;
+package org.melchor.admin.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
