@@ -22,4 +22,10 @@ public class AdminController {
         return ResponseEntity.ok(domainList);
     }
 
+    @PatchMapping("/{domainName}/{id}")
+    public ResponseEntity<?> updateDomain(@PathVariable String domainName, @PathVariable Long id, @RequestBody String json) {
+        adminService.updateDomain(domainName, id, json);
+        return ResponseEntity.ok().build();
+    }
+
 }
